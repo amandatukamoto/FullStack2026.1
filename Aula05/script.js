@@ -1,0 +1,40 @@
+console.log("Olá classe!");
+console.log("Exemplo");
+
+/*let nome = prompt("Digite o seu nome:");
+console.log(nome)
+window.alert("Seu nome é " + nome)
+
+for(let i=0; i < 10; i++){
+    window.alert(i);
+}*/
+ console.log("Atividade 1")
+ 
+ for(let i = 1; i <= 100; i = i + 2){
+    console.log(i)
+ }
+
+ for(let i = 1; i <= 100; i = i += 2){
+    console.log(i)
+ }
+
+ for(let i = 1; i <= 100;  i++){
+    if(i%2 !=0){
+        console.log(i)
+ }
+}
+
+let i = 1;
+while(i <= 0){
+    console.log(i);
+    i += 2;
+}
+
+console.log("Atividade 2")
+
+for(let i = 1; i <= 500; i + 5){
+    for(i%2 !=0){
+        
+        console.log(i)
+    } 
+}

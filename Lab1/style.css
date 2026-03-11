@@ -1,31 +1,122 @@
-.titulos{
-    color: rgb(106, 85, 115);
-    background-color: rgb(223, 207, 235);
+body{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18pt;
+    margin: 20px;
+    padding: 20px;
+    background-color: #462043;
+    color: #333;
+}
+
+
+.link-projetos{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #f0add6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-projetos:hover{
+    background-color: #3c1230;
+}
+
+
+.titulos{
+    color: #ebb8d6;
+    border-bottom: 2px solid #612e5d;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+
+.secao-foto, .secao-fotos{
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #462043;
+    border: 1px solid #462043;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.secao-foto h3, .secao-fotos h3{
+    color: #ebb8d6;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #612e5d;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.galeria{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.item:hover{
+    transform: scale(1.05);
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.item p{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ebb8d6;
 }
 
 #p1{
-    color:rgb(106, 85, 115);
-    font-size: 15pt;
-
+    font-size: 22px;
+    color: #ebb8d6;
+    margin: 15px 0;
 }
 
 #p2{
-    background-color:rgb(223, 207, 235); 
-    font-family: 'Times New Roman', Times, serif;
-    color:rgb(106, 85, 115);
+    color: #ebb8d6;
+    font-size: 18px;
+    margin: 10px 0;
 }
+
+
+a{
+    color: #b98aa5;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 
 iframe{
-    width: 350px;
-    height:250px;
     border-radius: 15%;
-    box-shadow: 10px 10px rgb(223, 207, 235) ;
+    margin: 10px 0;
+    width: 400px;
+    height: 300px;
 }
 
-body{
-    background-color: rgb(244, 232, 237);
-}
 
+
+ 

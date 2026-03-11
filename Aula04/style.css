@@ -1,0 +1,35 @@
+.flex-container{
+    background-color: rgb(222, 168, 241);
+    display: flex;
+    /*flex-direction: row;
+   flex-wrap: wrap;*/
+   flex-flow: row wrap;
+   justify-content: center;
+   align-content: space-between;
+}
+
+.flex-container div{
+    background-color: rgb(167, 74, 238);
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(64, 18, 106);
+}
+
+#d10{
+    order: 2;
+    flex-grow: 2;
+}
+
+#d20{
+    order: 1;
+    flex-grow: 1;
+}
+
+#d30{
+    flex-basis: 200px;
+}
+
+#d18{
+    align-self: center;
+}
