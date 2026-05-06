@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor</title>
+</head>
+<body>
+    <h1>Servidor rodando...</h1>
+    <h2>Amanda Tukamoto</h2>
+
+    <h3>Exemplos de formulários:</h3>
+
+    <form action="/inicio"> 
+        <input type="text" name="text">
+        <br>
+        <input type="number" name="number">
+        <br>
+        <input type="checkbox" name="cb">
+        <input type="radio" name="rd">
+        <br>
+        <input type="color" name="color">
+         <br>
+        <input type="date">
+         <br>
+        <input type="email">
+         <br>
+        <input type="password">
+         <br>
+        <input type="submit" value="enivar por GET" formmethod="get">
+        <input type="submit" value="enviar por POST" formmethod="post">
+    </form>
+    <br>
+    <h3>Exemplos de cadastro:</h3>
+
+    <form method="post" action="/cadastro">
+        <p>nome: <input type="text" name="nome"></p>
+        <p>login: <input type="text" name="login"></p>
+        <p>senha: <input type="password" name="senha"></p>
+        <input type="submit" value="Cadastrar">
+    </form>
+    <br>
+    <h3>Exemplo de uso de FOR no ejs:</h3>
+    
+    <form method="get" action="/for">
+        <p>Indique a quantidade de DIVs:</p>
+        <input type="number" name="qtde">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

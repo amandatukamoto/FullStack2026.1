@@ -1,0 +1,12 @@
+div{
+    display: inline;
+    background-color: rgb(227, 118, 222);
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(128, 37, 130)
+}
+
+h1{
+     color:rgb(128, 37, 130)
+}
